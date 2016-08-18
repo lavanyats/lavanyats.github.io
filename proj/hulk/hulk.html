@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HULK: CacHing with CopULas for BulK Preloading </title>
+</head>
+<body>
+<h2> <center>HULK: CacHing with CopULas for BulK Preloading </center></h2>
+Copula-HDP-HMM: Non-parametric modeling with temporal multivariate data for I/O efficient Bulk Cache Preloading, Lavanya Sita Tekumalla, Chiranjib Bhattacharyya, SIAM Data Mining Conference, Miami, 2016.
+
+<BR>
+<hr>
+Abstract: <BR>
+Caching is an important determinant of storage system performance. Bulk cache preloading is the process of preloading large batches of relevant data into cache, minutes or hours in advance of actual requests by the application. We address bulk preloading by analyzing high-level spatio-temporal motifs from raw and noisy I/O traces by aggregating the trace into a temporal sequence of correlated count vectors. Such temporal multi-
+variate data from trace aggregation arise from a diverse set of workloads leading to diverse data distributions with complex spatio-temporal dependencies. Motivated by this, we propose the Copula-HDP-HMM, a new Bayesian non-parametric modeling technique based on Gaussian Copula, suitable for temporal multivariate data with arbitrary marginals, avoiding limiting assumptions on the marginal distributions. We are not aware of prior work on copula based extensions of Bayesian non-parametric modeling algorithms for discrete data. Inference with copulas is hard when data is
+not continuous. We propose a semi-parametric inference technique based on extended rank likelihood that circumvents specifying marginals, making our inference suitable for count data and even data with a combination of discrete and continuous marginals, enabling the use of Bayesian non-parametric modeling, for several data types, without assumptions on marginals. Finally, we propose HULK1, a strategy for I/O efficient bulk cache preloading using our Copula-HDP-HMM model to leverage high-level spatio-temporal motifs in Block I/O traces. In experiments on benchmark traces, we show near perfect hitrate of 0.95 using HULK, a tremendous improvement over baseline using Multi-variate Poisson, with only a fourth of I/O overhead.
+
+<BR>
+<hr>
+<BR>
+<a href="SDM_Copula_HDP_HMM_HULK_Main.pdf">Download pdf</a> <BR>
+<a href="SDM_Copula_HDP_HMM_HULK_Suppl.pdf">Download suppl material</a> <BR>
+<a href="hulk_code_share_Feb15.zip">Download Code Here</a> <BR>
+<a href="hulk_synthetic_traces.zip">Synthetic Data</a>
+
+<hr>
+
+</body>
+</html>

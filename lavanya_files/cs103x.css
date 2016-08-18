@@ -1,0 +1,123 @@
+/* Stanford University
+ * Computer Science Department
+ *
+ * CS107 Stylesheet
+ * Ryan Barrett (rbarrett@cs.stanford.edu)
+ *
+ * Based on the CS249 and CS444N Stylesheets, which were in turn based on one of
+ * the W3C's core stylesheets, steely.css. Its comments are below.
+ */
+
+/* The W3C Core Styles Copyright (c) 1998 W3C (MIT, INRIA, Keio), All Rights
+Reserved. W3C liability, trademark, document use and software licensing rules
+apply. See http://www.w3.org/Consortium/Legal/ipr-notice.html
+
+This stylesheet has been served in a form to avoid known bugs in your user
+agent's CSS implementation. Copying and serving this stylesheet to other
+agents may lead to unexpected results. Please refer to its address rather than
+copy it. */
+
+
+
+
+/*
+ * LAYOUT STUFF
+ */
+
+h2 {
+	margin-top:			25px;
+}
+
+dt {
+	margin-top:			10px;
+	margin-left:		25px;
+	margin-color:		white;
+	/*margin-color:		LightGray;*/
+}
+
+dd {
+	margin-left:		40px;
+	margin-color:		white;
+	/*margin-color:		LightGray;*/
+}
+
+
+/* stuff with border on left */
+div.header {
+	width:				97%;
+	border-color:		white;
+	/*border-color:		LightGray;*/
+	border-right-style:	solid;
+}
+
+dl, div.faq {
+	/*border-color:		LightGray;*/
+	border-color:		Black;
+	border-left-style:	solid;
+}
+
+dl.handouts {
+	border-bottom-style: solid;
+	border-color:		white;
+	/*border-color:		LightGray;*/
+}
+
+
+
+/*
+ * FORMATTING STUFF
+ */
+
+body {
+	text-transform:		none;
+	text-decoration:	none;
+
+	/*font-family:		Arial, "lucida console", sans-serif;*/
+	font-family:		"Comic Sans MS", cursive, sans-serif;
+	/*font-family:		"Lucida Console", Monaco, monospace;*/
+	color:				#333333;
+	/*background:			LightGray;*/
+	background:			#ffffff;
+}
+
+h1,h2, h3, h4, h5, h6, th, dt {
+/*	font-family:		Tahoma, Verdana, 'Myriad Web', Syntax,
+	sans-serif*/;
+	/*font-family:		Arial, "lucida console", sans-serif;*/
+	font-family:		Arial;
+	/*font-variant: small-caps;*/
+	/*color:				green;*/
+}
+
+hr {
+	color:				red;
+}
+
+a:link	{	
+	text-decoration:	none;
+	font-weight:		bold;
+	color:				red;
+}
+
+a:visited	{	
+	text-decoration:	none;
+	font-weight:		bold;
+	color:				#993300;
+}
+
+a:active	{	
+	text-decoration:	none;
+	font-weight:		bold;
+	color:				#003300;
+}
+
+a:hover	{
+	text-decoration:	none;
+	color:				#003300;
+	/*background:			LightGray;*/
+}
+
+
+
+
+
